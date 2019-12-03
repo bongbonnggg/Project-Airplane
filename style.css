@@ -1,0 +1,77 @@
+:root {
+  --richblack: #001514;
+  --maygreen: #438c49;
+  --darkslategray: #315659;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.row {
+  display: flex;
+}
+.sidebar {
+  background: #001514;
+  padding: 20px 15px;
+  width: 20%;
+}
+.sidebar .logo-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.sidebar .logo-box img {
+  width: 80px;
+}
+.sidebar .logo-box h1 {
+  color: #438c49;
+}
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+}
+.sidebar ul li {
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+}
+.sidebar ul li:first-child {
+  background: #438c49;
+  border-radius: 5px;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* CONTENT */
+.canvas {
+  width: 80%;
+  background: #f5f5f5;
+}
+.canvas nav {
+  height: 50px;
+  overflow: hidden;
+  background: #315659;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+.canvas nav .user {
+  display: flex;
+  align-items: center;
+}
+.canvas nav .user h6 {
+  font-size: 16px;
+  color: #fff;
+  padding-left: 10px;
+}
